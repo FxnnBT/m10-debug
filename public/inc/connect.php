@@ -11,3 +11,5 @@ $success = mysqli_real_connect( $mysqli_link, DB_HOST, DB_USERNAME, DB_PASSWORD,
 if ( mysqli_connect_error() ) {
 	die("Kan geen verbinding met de database maken");
 }
+
+var_dump($mysqli_link);

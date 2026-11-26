@@ -12,9 +12,11 @@ $ingelogd = true;
 define( "INGELOGD", true );
 
 
+
+
 include_once('./inc/header.php');
 ?>
-<div id="content>
+<div id="content">
 <?php
 	//sendError($_POST);
 	echo getMessages( );
@@ -22,4 +24,4 @@ include_once('./inc/header.php');
 </div>
 
 <?php
-include_once("../inc/footer.php");
+include_once("./inc/footer.php");
